@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Stop Hoax</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+  <title>Stop Hoax</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
 <style>
 body, html {
   height: 100%;
@@ -13,9 +14,10 @@ body, html {
 }
 
 .bgimg {
-  background-position: center;
-  background-size: cover;
-  background-image: url("Hoax.jpg");
+  background-position: right;
+  background-size: auto;
+  background-image: url("Hoaxt.jpg");
+
   min-height: 75%;
 }
 
@@ -26,149 +28,142 @@ body, html {
 </head>
 <body>
 
-<!-- Links (sit on top) -->
-<!-- <div class="w3-top">
-  <div class="w3-row w3-padding w3-black">
-    <div class="w3-col s3">
-      <a href="#" class="w3-button w3-block w3-black">HOME</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#menu" class="w3-button w3-block w3-black">MENU</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#where" class="w3-button w3-block w3-black">WHERE</a>
-    </div>
-  </div>
-</div> -->
+<!-- Side Bar -->
+<nav class="w3-sidebar w3-bar-block w3-sand w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:1;width:250px;font-weight:bold" id="mySidebar"><br>
+  <h3 class="w3-padding-64 w3-center"><b>DAFTAR ISI</b></h3>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PENDAHULUAN</a> 
+  <a href="#judul" onclick="w3_close()" class="w3-bar-item w3-button">JUDUL</a> 
+  <a href="#dalil" onclick="w3_close()" class="w3-bar-item w3-button">DALIL</a>
+  <a href="#dampak" onclick="w3_close()" class="w3-bar-item w3-button">DAMPAK</a>
+  <a href="#hindar" onclick="w3_close()" class="w3-bar-item w3-button">CARA MENGHINDARI</a>
+  <a href="#kesimpulan" onclick="w3_close()" class="w3-bar-item w3-button">KESIMPULAN</a><br><br><br><br>
+  <h5><b>KELOMPOK 1</b></h5>
+  <p>
+    DEO PRAMUDIA TOBAI (2100018034)<br>
+    DEO PRAMUDIA TOBAI (2100018034)<br>
+    DEO PRAMUDIA TOBAI (2100018034)<br>
+    DEO PRAMUDIA TOBAI (2100018034)<br>
+    DEO PRAMUDIA TOBAI (2100018034)<br>
+    DEO PRAMUDIA TOBAI (2100018034)<br>
+  </p>
+</nav>
 
-<!-- Header with image -->
-<header class="bgimg w3-display-container w3-grayscale-min" id="home">
-<!--   <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
-    <span class="w3-tag">Open from 6am to 5pm</span>
-  </div>
-  <div class="w3-display-middle w3-center">
-    <span class="w3-text-white" style="font-size:90px">the<br>Cafe</span>
-  </div>
-  <div class="w3-display-bottomright w3-center w3-padding-large">
-    <span class="w3-text-white">15 Adr street, 5015</span>
+
+<!-- Header -->
+<header class="bgimg w3-grayscale-min" id="home">
+<!--   <div class=" w3-center">
+    <span class="w3-text-black" style="font-size:100px">Stop Berita Hoax!</span>
   </div> -->
 </header>
 
+<div class="w3-main" style="margin-left:200px">
 <!-- Add a background color and large text to the whole page -->
 <div class="w3-sand w3-grayscale w3-large">
 
-<!-- About Container -->
-<div class="w3-container" id="about">
-  <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Lorem Ipsum</span></h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in magna tortor. Nullam sagittis, metus a dictum feugiat, tortor massa tincidunt arcu, sit amet efficitur tortor purus id elit. Pellentesque facilisis lobortis convallis. Cras et lorem eleifend, convallis lorem non, vehicula turpis. Sed lobortis magna ut sollicitudin dapibus. Nulla feugiat tempus iaculis. Quisque vitae ante dignissim, ornare nunc vitae, posuere ante. Curabitur auctor lacus felis, ut dictum nulla aliquet nec.</p>
+<!-- Judul -->
+<div class="w3-container" id="judul">
+  <div class="w3-content" style="max-width:1000px">
+    <h3 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">STOP MENYEBARKAN BERITA HOAX</span></h3>
+    <p><strong>Pengertian Berita Hoax</strong><br>
+      Berita hoax atau berita palsu adalah informasi yang sengaja disebarkan dengan tujuan menyesatkan atau membingungkan pembaca. Di era informasi digital saat ini, berita hoax dapat dengan mudah menyebar luas melalui media sosial, pesan instan, dan platform daring lainnya.
+    </p>
+    <p>
+      Contoh berita hoax yang terjadi tahun terkini "Vaksin COVID-19 Menyebabkan Kemandulan"
+
+      <br>Isu: Beredar klaim bahwa vaksin COVID-19 dapat menyebabkan kemandulan pada penerima vaksin, yang telah menimbulkan kekhawatiran di kalangan masyarakat.
+
+      <br>Fakta: Klaim ini telah secara luas dibantah oleh para ahli kesehatan dan peneliti. Vaksin COVID-19 telah melalui serangkaian uji klinis yang ketat sebelum disetujui untuk digunakan. Tidak ada bukti ilmiah yang kuat yang mendukung klaim bahwa vaksin tersebut dapat menyebabkan kemandulan.
+    </p>
+    
+    <!-- 
+    <p><strong>Nullam non velit vestibulum</strong> 
+    vestibulum nibh id, bibendum lacus. Vivamus quis malesuada arcu. Aenean molestie aliquet velit, sit amet lacinia orci tempus eu. Quisque vitae egestas purus. Suspendisse viverra pulvinar velit, eget sollicitudin augue commodo cursus. Quisque at lobortis sem. Curabitur a enim quis tellus commodo tincidunt. Interdum et malesuada fames ac ante ipsum primis in
+    </p>
     <div class="w3-panel w3-leftbar w3-light-grey">
-      <p>Ut augue urna, tristique quis arcu sit amet, dignissim pharetra nisi. Nullam posuere justo vel purus sagittis, nec convallis metus pharetra. Suspendisse vel sem ac nulla fringilla facilisis. Pellentesque sem felis, gravida eget ex nec, lobortis cursus r</p>
-    </div>
-    <img src="stophoax.avif" style="width:100%;max-width:1000px" class="w3-margin-top">
-    <p><strong>Nullam non velit vestibulum</strong> vestibulum nibh id, bibendum lacus. Vivamus quis malesuada arcu. Aenean molestie aliquet velit, sit amet lacinia orci tempus eu. Quisque vitae egestas purus. Suspendisse viverra pulvinar velit, eget sollicitudin augue commodo cursus. Quisque at lobortis sem. Curabitur a enim quis tellus commodo tincidunt. Interdum et malesuada fames ac ante ipsum primis in</p>
-    <!-- <p><strong>Address:</strong> 15 Adr street, 5015, NY</p> -->
+      <p>
+      Ut augue urna, tristique quis arcu sit amet, dignissim pharetra nisi. Nullam posuere justo vel purus sagittis, nec convallis metus pharetra. Suspendisse vel sem ac nulla fringilla facilisis. Pellentesque sem felis, gravida eget ex nec, lobortis cursus r
+      </p>
+    </div> -->
+
+  </div>
+  </div>
+
+<!-- Dalil -->
+<div class="w3-container" id="dalil">
+  <div class="w3-content" style="max-width:1000px">
+      <p><strong>Allah SWT berfirman dalam Q.S. An-Nuur (24): 11</strong>
+
+      <br><br><b>
+      اِنَّ الَّذِيْنَ جَاۤءُوْ بِالْاِفْكِ عُصْبَةٌ مِّنْكُمْۗ لَا تَحْسَبُوْهُ شَرًّا لَّكُمْۗ بَلْ هُوَ خَيْرٌ لَّكُمْۗ لِكُلِّ امْرِئٍ مِّنْهُمْ مَّا اكْتَسَبَ مِنَ الْاِثْمِۚ وَالَّذِيْ تَوَلّٰى كِبْرَهٗ مِنْهُمْ لَهٗ عَذَابٌ عَظِيْمٌ
+      </b><br><br>
+      <i>Artinya: Sesungguhnya orang-orang yang membawa berita bohong itu adalah dari golongan kamu (juga). Janganlah kamu mengira berita itu buruk bagi kamu bahkan itu baik bagi kamu. Setiap orang dari mereka akan mendapat balasan dari dosa yang diperbuatnya. Dan barangsiapa di antara mereka yang mengambil bagian terbesar (dari dosa yang diperbuatnya), dia mendapat azab yang besar (pula).</i>
+    </p>
   </div>
 </div>
 
-<!-- Menu Container -->
-<!-- <div class="w3-container" id="menu">
-  <div class="w3-content" style="max-width:700px">
- 
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
-  
-    <div class="w3-row w3-center w3-card w3-padding">
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
-        <div class="w3-col s6 tablink">Eat</div>
-      </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
-        <div class="w3-col s6 tablink">Drink</div>
-      </a>
-    </div>
+<!-- Dampak -->
+<div class="w3-container" id="dampak">
+  <div class="w3-content" style="max-width:1000px">
+    <center>
+      <img src="stophoax.avif" style="width:500px">
+    </center>
+    <p><strong>Dampak Berita Hoax</strong><br>
+      Hoaks memiliki dampak negatif yang dapat terjadi jika informasi palsu tersebar luas tanpa adanya pikiran kritis dari seseorang untuk mencari sumber berita yang kredibel.
+      Berikut adalah dampak yang ditimbulkan dari hoaks.
 
-    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
-      <h5>Bread Basket</h5>
-      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
-    
-      <h5>Honey Almond Granola with Fruits</h5>
-      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
-    
-      <h5>Belgian Waffle</h5>
-      <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
-    
-      <h5>Scrambled eggs</h5>
-      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
-    
-      <h5>Blueberry Pancakes</h5>
-      <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>
-    </div>
-
-    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
-      <h5>Coffee</h5>
-      <p class="w3-text-grey">Regular coffee 2.50</p><br>
-    
-      <h5>Chocolato</h5>
-      <p class="w3-text-grey">Chocolate espresso with milk 4.50</p><br>
-    
-      <h5>Corretto</h5>
-      <p class="w3-text-grey">Whiskey and coffee 5.00</p><br>
-    
-      <h5>Iced tea</h5>
-      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
-    
-      <h5>Soda</h5>
-      <p class="w3-text-grey">Coke, Sprite, Fanta, etc. 2.50</p>
-    </div>  
-    <img src="/w3images/coffeehouse2.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+      <br><br>1. Menimbulkan Perpecahan
+      <br>Berita hoaks atau berita bohong dapat menimbulkan perpecahan individu atau antar kelompok. Hal ini terjadi karena kesalahan informasi yang didapat dan tidak mencari sumber informasi yang lebih kredibel.
+      <br><br>2. Tidak Percaya Fakta
+      <br>Masyarakat yang terlalu sering menerima berita hoaks lama kelamaan akan bingung membedakan berita faktual dan hoaks. Bahkan masyarakat tidak akan lagi percaya dengan situs berita yang benar dan lebih mempercayai hoaks.
+      <br><br>3. Menimbulkan Opini Negatif
+      <br>Berita hoax sering kali menyasar emosi masyarakat. Fitnah yang disebar dapat menyulut kebencian dan kemarahan, sehingga masyarakat memiliki sudut pandang negatif terhadap seseorang, kelompok, ataupun suatu produk. Upaya ini bisa disebut dengan black campaign untuk menjatuhkan pesaing. 
+    </p>
   </div>
 </div>
 
-<!-- Contact/Area Container -->
-<!-- <div class="w3-container" id="where" style="padding-bottom:32px;">
-  <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE TO FIND US</span></h5>
-    <p>Find us at some address at some place.</p>
-    <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
-    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
-    <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
-      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
-    </form>
+<!-- Menghindari -->
+<div class="w3-container" id="hindar">
+  <div class="w3-content" style="max-width:1000px">
+    <p><strong>Cara Menghindari Hoaks</strong><br>
+      Sebagai netizen yang cerdas tentunya kita harus mengetahui perbedaan antara berita faktual dan berita hoaks. Hal tersebut adalah tindakan preventif agar tidak termakan berita hoaks. Di bawah ini akan dijelaskan beberapa cara untuk mengatasi hoaks.
+
+      <br><br>1. Periksa Sumber Berita
+      <br>Menghindari berita hoaks bisa dimulai dengan memeriksa sumber berita yang didapat, juga bisa membandingkan antara berita yang kamu baca dengan berita lain. Kita tidak dapat membaca berita hanya satu sumber saja, kita juga harus membandingkannya dengan sumber yang lain agar tahu apakah berita tersebut benar atau tidak. Kita harus menggali informasi secara dalam agar tidak termakan hoaks.
+      <br><br>2. Membaca Keseluruhan Berita
+      <br>Membaca menyeluruh artinya semua harus dibaca dengan teliti, bukan hanya membaca poin-poin dari sebuah berita atau informasi yang didapatkan. Banyak artikel dengan judul menarik agar orang mau membacanya, dan ada juga judul yang membuat kita menjadi salah paham terhadap suatu kasus yang disajikan di dalam berita.
+      <br><br>3. Menimbulkan Opini Negatif
+      <br>Berita hoax sering kali menyasar emosi masyarakat. Fitnah yang disebar dapat menyulut kebencian dan kemarahan, sehingga masyarakat memiliki sudut pandang negatif terhadap seseorang, kelompok, ataupun suatu produk. Upaya ini bisa disebut dengan black campaign untuk menjatuhkan pesaing. 
+    </p>
+  </div>
+</div>
+
+<!-- Kesimpulan -->
+<div class="w3-container" id="kesimpulan">
+  <div class="w3-content" style="max-width:1000px">
+    <p><strong>Kesimpulan</strong><br>
+      Menyebarkan berita hoax adalah perbuatan yang bertentangan dengan nilai-nilai agama dan kemanusiaan. Islam mengajarkan untuk selalu berpegang pada kebenaran, kejujuran, dan menjaga kehormatan sesama. Kita semua memiliki tanggung jawab untuk memerangi berita hoax dengan cara mengedukasi diri dan orang lain tentang pentingnya memeriksa kebenaran informasi sebelum menyebarkannya. Dengan menghentikan penyebaran berita palsu, kita dapat menjaga kedamaian dan keadilan dalam masyarakat.
+    </p>
+  </div>
+</div>
+
+<!-- Kelompok -->
+<!-- <div class="w3-container w3-khaki" id="kelompok">
+  <div class="w3-content" style="max-width:1000px">
+    
+  <h5><b>KELOMPOK 1</b></h5>
+  <p>
+    DEO PRAMUDIA TOBAI (2100018034)<br>
+  </p>
   </div>
 </div> -->
- -->
-<!-- End page content -->
+
+
+
+</div>
 </div>
 
-<!-- Footer -->
-<!-- <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer> -->
-
-<script>
-// Tabbed Menu
-function openMenu(evt, menuName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("menu");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
-  }
-  document.getElementById(menuName).style.display = "block";
-  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
-}
-document.getElementById("myLink").click();
-</script>
+</div>
 
 </body>
 </html>
